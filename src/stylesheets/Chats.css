@@ -1,0 +1,60 @@
+body {
+  margin: 20px;
+}
+
+.main-content {
+  border: 1px solid grey;
+  border-radius: 5px;
+  min-height: 90vh;
+  min-width: 90vw;
+  padding: 16px;
+}
+
+.chat-list {
+  float: left;
+  width: 25%;
+}
+
+.chat-divider {
+  width: 90%;
+  height: 1px;
+  border: none;
+  background-color: grey;
+}
+
+.chat-content {
+  float: left;
+  width: 70%;
+  padding: 0px 0px 0px 3%;
+}
+
+.user-chat-list {
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.selected-user-list, .self-messages {
+  background-color: #bfeebb;
+}
+
+.other-messages {
+  background-color: #f5f379;
+}
+
+.messages {
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.messages-datetime {
+  text-align: right;
+  font-size: 12px;
+}
+
+.message-box {
+  width: 200px;
+  clear: both;
+  padding-bottom: 20px
+}

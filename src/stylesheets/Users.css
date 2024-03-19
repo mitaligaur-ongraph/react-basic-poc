@@ -1,0 +1,96 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #919cb1;
+  min-height: 15vh;
+  max-height: fit-content;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  margin: 25px;
+  border-radius: 10%;
+}
+
+.pointer {
+  width: 25px;
+  height: 25px;
+  background-color: #88adb9;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.pointer-area {
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+}
+
+#hr-style {
+  width: 75%;
+  margin-bottom: 5vh;
+}
+
+.users-info td, .users-posts-data li{
+  text-align: left;
+  padding-right: 20px;
+}
+
+.users-info div {
+  height: 100px;
+  overflow-y: auto;
+  margin-bottom: 25px;
+  border-right: solid 1px grey;
+}
+
+.current-user {
+  margin-left: 25px;
+}
+
+.users-posts {
+  width: 70%;
+  height: 250px;
+  overflow-y: auto;
+  float: left;
+  padding-right: 10px;
+  border-right: solid 1px grey;
+}
+
+#create-user-post {
+  background-color: rgb(164, 226, 145);
+  float: left;
+  width: 25%;
+  margin: 20px;
+  border-radius: 10px;
+  min-height: 200px;
+  padding-top: 16px;
+}
+
+#create-user-post table {
+  text-align: left;
+  padding: 20px 20px 10px 20px;
+}
+
+#create-user-post table td {
+  padding: 5px;
+}
+
+#create-post-msg {
+  border-radius: 10px;
+  text-align: center;
+  margin: 0 60px;
+}
+
+.error {
+  background-color: rgb(247, 71, 59);
+}
+
+.success {
+  background-color: rgb(53, 196, 10);
+}
